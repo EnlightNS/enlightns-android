@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_record_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.84"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="else.enlightns.info" />
+
+        <TextView
+            android:id="@+id/list_record_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.57"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:text="184.137.23.98" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/list_record_should_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

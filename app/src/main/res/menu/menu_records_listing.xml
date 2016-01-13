@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.enlightns.enlightns.RecordListing">
+
+    <item
+        android:id="@+id/action_refresh_records"
+        android:actionLayout="@layout/action_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_refresh_record_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_update_records"
+        android:orderInCategory="50"
+        android:title="@string/action_update_records"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="75"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

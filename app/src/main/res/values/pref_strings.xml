@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="header_general">General</string>
+    <string name="use_lan_ip_key">use_lan_ip</string>
+    <string name="use_lan_ip_title">Use LAN IP for updates</string>
+    <string name="use_lan_ip_summary_on">LAN IP will be used when updating records</string>
+    <string name="use_lan_ip_summary_off">WAN IP will be used</string>
+    <string name="update_on_mobile_key">update_on_mobile</string>
+    <string name="update_on_mobile_title">Update IP on Mobile Network</string>
+    <string name="update_on_mobile_summary_on">Mobile Network IP will be used when updating records</string>
+    <string name="update_on_mobile_summary_off">Records won\'t update when connected to Mobile Network</string>
+</resources>

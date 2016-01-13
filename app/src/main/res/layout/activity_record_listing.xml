@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RecordListing">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.54"
+        android:paddingBottom="4dp"
+        android:paddingTop="16dp"
+        android:text="@string/current_ip"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/current_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:alpha="0.87"
+        android:paddingBottom="20dp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        tools:text="24.140.55.127" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:alpha="0.54"
+        android:background="#000" />
+
+    <ExpandableListView
+        android:id="@+id/records_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+</LinearLayout>
